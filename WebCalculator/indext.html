@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calcultor</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+     <div class="Container">
+        <div class="shader">
+            <div class="Calculator">
+                <div class=" display">
+                    <input type="text" class="input" id="screen">
+                </div>
+                <div class="buttons">
+                    <button id="buttons" class="inp_buttons1" onclick="clearButton()">AC</button>
+                    <button id="buttons" class="inp_buttons1" onclick="buttonPressed('%')">%</button>
+                    <button id="buttons" class="inp_buttons3" onclick="buttonPressed('+')">+</button>
+                    <br>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed(7)">7</button>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed(8)">8</button>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed(9)">9</button>
+                    <button id="buttons" class="inp_buttons2" onclick="buttonPressed('*')">x</button>
+                    <br>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed(4)">4</button>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed(5)">5</button>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed(6)">6</button>
+                    <button id="buttons" class="inp_buttons2" onclick="buttonPressed('-')">-</button>
+                    <br>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed(1)">1</button>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed(2)">2</button>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed(3)">3</button>
+                    <button id="buttons" class="inp_buttons2" onclick="buttonPressed('/')">/</button>
+                    <br>
+                    <button id="buttons" class="inp_buttons4" onclick="buttonPressed(0)">0</button>
+                    <button id="buttons" class="inp_buttons" onclick="buttonPressed('.')">.</button>
+                    <button id="buttons" class="inp_buttons2" onclick="equalButton()">=</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
